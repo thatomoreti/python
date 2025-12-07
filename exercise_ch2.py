@@ -1,24 +1,9 @@
-#2-3 Personal Message
-u_name="Steve";
-print(f"Hey Stone Cold {u_name},would like to learn how to say Hell Yeah?")
+#2-8 Number Eight
+print(4*2);
+print(4+4);
+print(16/2);
+print(24-16);
 
-#2-4 Name Cases 
-u_name2="Mbali";
-print(u_name2.upper());
-print(u_name2.lower());
-print(u_name2.title())
-
-#2-5 Famous Quote
-wise_quote='"We goin be alright!"';
-print(f"Kendrick once said,{wise_quote}")
-
-#2-6 Famous Quote 2
-famous_person="kedrick lamar";
-message=f"{famous_person.title()} once said {wise_quote}";
-print(message);
-
-#2-7 Stripping Names
-u_name3=" zahara "
-print(f"\n\t{u_name3.strip()}")
-print(f"\n\t{u_name3.lstrip()}")
-print(f"\n\t{u_name3.rstrip()}")
+#2-9 Favorite Number 
+fave_number=1
+print(f"My favourite number is {fave_number}")
