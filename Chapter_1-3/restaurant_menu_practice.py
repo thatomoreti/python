@@ -9,6 +9,9 @@ print(f"More? Yes sir!")
 menu.append("Mala le Mogodu")
 print(f"Here is the updated menu for food sold currently sold by the restaurant:{menu}")
 
+print("Chakalaka is not sellig ?? We'll remove it")
+menu[5]="Chicken Stew"
+
 print("We don't actually have the budget for all of it ? Ok I'll remove some of the food")
 off_menu=menu.pop(3)
 print(f"We removed {off_menu}, too many ingredients needed")
