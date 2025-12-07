@@ -69,3 +69,69 @@ print(f"\t We are pleased to inform you that you are still invited Mrs {guest_li
 del guest_list[1]
 del guest_list[0]
 print(guest_list)
+
+#3-8 Seeing the World
+world=['Japan','Nigeria','Kenya','Spain','Ireland']
+print(world)
+print (sorted(world));
+print(world);
+print(sorted(world,reverse=True));
+print(world);
+world.reverse()
+print(world);
+world.reverse()
+print(world);
+world.sort();
+print(world);
+world.sort;
+print(world);
+
+#3-9 Dinner Guests
+guest_list=['Whitney Houston','Mandoza','Nelson Mandela','Chris Hani','Greta Thunberg'];
+print(f"{len(guest_list)} people have been invited to dinner.")
+
+
+#3-10 Every Function
+sports=['Soccer','Rugby','Tennis','Basketball','Netball']
+print(f"These are the most popular sports {sports}")
+
+
+print(f"Oops , not {sports[4]}, we'll replace it with some other sport")
+sports[4]='Cricket'
+
+print(f"Here is an updated list of the most popular sports {sports}")
+
+print(f"Steve loves {sports[0]}")
+print(f"Jeffery loves {sports[1]}")
+print(f"Stella loves {sports[2]}")
+print(f"Mohammed loves {sports[3]}")
+print(f"James loves {sports[4]}")
+
+print(f"Oh no we did'nt add a favourite sport for Mbali")
+sports.insert(0,"Darts")
+
+print(f"Mbali loves {sports[0]}")
+print(f"Steve loves {sports[1]}")
+print(f"Jeffery loves {sports[2]}")
+print(f"Stella loves {sports[3]}")
+print(f"Mohammed loves {sports[4]}")
+print(f"James loves {sports[5]}")
+
+print(f"Upon further investigation ,golf is also popular ")
+sports.append("Golf")
+print(f"Here is an updated list of the most popular sports {sorted(sports)}")
+print(f"This list has {len(sports)} sports!")
+
+print(f"Lets see the top two sports")
+removed_sport=sports.pop()
+removed_sport1=sports.pop()
+removed_sport2=sports.pop()
+removed_sport3=sports.pop()
+removed_sport4=sports.pop()
+
+print(f"{removed_sport} has been removed")
+print(f"{removed_sport1} has been removed")
+print(f"{removed_sport2} has been removed")
+print(f"{removed_sport3} has been removed")
+print(f"{removed_sport4} has been removed")
+print(f"This is your top 2 {sports}")
