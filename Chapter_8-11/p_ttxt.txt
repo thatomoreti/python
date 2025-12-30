@@ -1,0 +1,4 @@
+I learned how to use python.
+i learned how to declare variables , data-types and functions
+I learned built-in methods , classes/objects , while and for loops, conditionals and if-statements.
+I love programming mate.
