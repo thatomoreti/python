@@ -122,7 +122,7 @@ with open('file.json') as f:
     
     print(numbers)
     
-#10-11
+#10-11 Favorite Number 
 favourite_number=input("What's your favorite number ??")
 
 with open('fave.json','w') as file:
